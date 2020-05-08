@@ -91,6 +91,90 @@ namespace ArraysAndLoopsExercises
             Console.ReadLine();
         }
 
+        static void PrintTriangle()
+        {
+            // Ask the user for a number between 3 and 6. 
+            // Print one asterisk to the screen. 
+            // On the next line print 2 asterisks, and continue until the users number is reached.
+
+            Console.Clear();
+            Console.WriteLine("PRINT A TRIANGLE\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void GuessTheMagicNumber()
+        {
+            // Ask the user for an integer. 
+            // If that integer is evenly divisible by 3, then print “You Won!”. 
+            // If it isn’t, ask the user to “Try again.” 
+            // Keep asking them for a number (looping) until they win.
+
+            Console.Clear();
+            Console.WriteLine("GUESS THE MAGIC NUMBER\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void NumbersInReverse()
+        {
+            // Print out numbers from 5 to 1.
+
+            Console.Clear();
+            Console.WriteLine("PRINT NUMBERS IN REVERSE ORDER\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void SquareOfEvenNumbers()
+        {
+            // Print the sqaures (the number multipied by itself) for even numbers between 1-9.
+
+            Console.Clear();
+            Console.WriteLine("PRINT THE SQUARE OF EVEN NUMBERS\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void SmallestNumberInArray()
+        {
+            // Ask the user for 5 integers and save them in an array. 
+            // Find the smallest number in the array and write it to the screen.
+
+            Console.Clear();
+            Console.WriteLine("FIND THE SMALLEST NUMBER IN AN ARRAY\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void CommonValues()
+        {
+            // You are given 3 arrays of the same size, where 1 is empty and 2 have values. 
+            // Use nested loops to find the values that are common between the 2 arrays.
+
+            Console.Clear();
+            Console.WriteLine("COMMON VALUES\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
 
     }
 }
