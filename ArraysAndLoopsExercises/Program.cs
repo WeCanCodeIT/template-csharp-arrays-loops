@@ -14,16 +14,12 @@ namespace ArraysAndLoopsExercises
                 Console.WriteLine("Which exercise would you like to run?");
                 Console.WriteLine("1. Sort the Numbers");
                 Console.WriteLine("2. Which Day of the Week?");
-                Console.WriteLine("3. Print a Triangle");
-                Console.WriteLine("4. Guess the Magic Number");
-                Console.WriteLine("5. Print Numbers in Reverse Order");
-                Console.WriteLine("6. Print the Square of Even Numbers");
-                Console.WriteLine("7. Find the Smallest Number in an Array");
+                Console.WriteLine("3. Find the Smallest Number in an Array");
+                Console.WriteLine("4. Shopping List");
+                Console.WriteLine("5. What's the Longest Word?");
+                Console.WriteLine("6. What's the Second to Last Word?");
+                Console.WriteLine("7. Print a Triangle");
                 Console.WriteLine("8. Common Values");
-                Console.WriteLine("14. Shopping List");
-                Console.WriteLine("15. What's the Longest Word?");
-                Console.WriteLine("16. What's the Second to Last Word?");
-
                 Console.WriteLine("Press Q to quit");
 
                 string userChoice = Console.ReadLine().ToLower();
@@ -37,19 +33,19 @@ namespace ArraysAndLoopsExercises
                         WhichDayOfWeek();
                         break;
                     case "3":
-                        PrintTriangle();
+                        SmallestNumberInArray();
                         break;
                     case "4":
-                        GuessTheMagicNumber();
+                        ShoppingList();
                         break;
                     case "5":
-                        NumbersInReverse();
+                        LongestWord();
                         break;
                     case "6":
-                        SquareOfEvenNumbers();
+                        SecondToLastWord();
                         break;
                     case "7":
-                        SmallestNumberInArray();
+                        PrintTriangle();
                         break;
                     case "8":
                         CommonValues();
@@ -95,63 +91,6 @@ namespace ArraysAndLoopsExercises
             Console.ReadLine();
         }
 
-        static void PrintTriangle()
-        {
-            // Ask the user for a number between 3 and 6. 
-            // Print one asterisk to the screen. 
-            // On the next line print 2 asterisks, and continue until the users number is reached.
-
-            Console.Clear();
-            Console.WriteLine("PRINT A TRIANGLE\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
-        static void GuessTheMagicNumber()
-        {
-            // Ask the user for an integer. 
-            // If that integer is evenly divisible by 3, then print “You Won!”. 
-            // If it isn’t, ask the user to “Try again.” 
-            // Keep asking them for a number (looping) until they win.
-
-            Console.Clear();
-            Console.WriteLine("GUESS THE MAGIC NUMBER\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
-        static void NumbersInReverse()
-        {
-            // Print out numbers from 5 to 1.
-
-            Console.Clear();
-            Console.WriteLine("PRINT NUMBERS IN REVERSE ORDER\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
-        static void SquareOfEvenNumbers()
-        {
-            // Print the sqaures (the number multipied by itself) for even numbers between 1-9.
-
-            Console.Clear();
-            Console.WriteLine("PRINT THE SQUARE OF EVEN NUMBERS\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
-
         static void SmallestNumberInArray()
         {
             // Ask the user for 5 integers and save them in an array. 
@@ -166,19 +105,6 @@ namespace ArraysAndLoopsExercises
             Console.ReadLine();
         }
 
-        static void CommonValues()
-        {
-            // You are given 3 arrays of the same size, where 1 is empty and 2 have values. 
-            // Use nested loops to find the values that are common between the 2 arrays.
-
-            Console.Clear();
-            Console.WriteLine("COMMON VALUES\n");
-
-            // Enter your solution here
-
-            Console.Write("Press enter to return to the Main Menu");
-            Console.ReadLine();
-        }
 
         static void ShoppingList()
         {
@@ -220,6 +146,36 @@ namespace ArraysAndLoopsExercises
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
         }
+
+        static void PrintTriangle()
+        {
+            // Ask the user for a number between 3 and 6. 
+            // Print one asterisk to the screen. 
+            // On the next line print 2 asterisks, and continue until the users number is reached.
+
+            Console.Clear();
+            Console.WriteLine("PRINT A TRIANGLE\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void CommonValues()
+        {
+            // You are given 3 arrays of the same size, where 1 is empty and 2 have values. 
+            // Use nested loops to find the values that are common between the 2 arrays.
+
+            Console.Clear();
+            Console.WriteLine("COMMON VALUES\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
     }
 }
 
