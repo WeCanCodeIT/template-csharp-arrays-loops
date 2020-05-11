@@ -20,6 +20,10 @@ namespace ArraysAndLoopsExercises
                 Console.WriteLine("6. Print the Square of Even Numbers");
                 Console.WriteLine("7. Find the Smallest Number in an Array");
                 Console.WriteLine("8. Common Values");
+                Console.WriteLine("14. Shopping List");
+                Console.WriteLine("15. What's the Longest Word?");
+                Console.WriteLine("16. What's the Second to Last Word?");
+
                 Console.WriteLine("Press Q to quit");
 
                 string userChoice = Console.ReadLine().ToLower();
@@ -176,5 +180,47 @@ namespace ArraysAndLoopsExercises
             Console.ReadLine();
         }
 
+        static void ShoppingList()
+        {
+            // Initialize an array with 4 food items. Print this shopping list to the console.
+
+            Console.Clear();
+            Console.WriteLine("SHOPPING LIST\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void LongestWord()
+        {
+            // Ask the user for a phrase consisting of 1-4 words (no punctuation).
+            // Print the longest word in the phrase. If 2 words have the same length, print both.
+
+            Console.Clear();
+            Console.WriteLine("WHAT'S THE LONGEST WORD?\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
+
+        static void SecondToLastWord()
+        {
+            // Ask the user for a sentence or phrase consisting of at least 4 words.
+            // Find the second to last word and print it.
+
+            Console.Clear();
+            Console.WriteLine("WHAT'S THE SECOND TO LAST WORD?\n");
+
+            // Enter your solution here
+
+            Console.Write("Press enter to return to the Main Menu");
+            Console.ReadLine();
+        }
     }
 }
+
+
