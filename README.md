@@ -1,6 +1,6 @@
 # Arrays and Nested Loops Exercises
 
-This is a starter project for the exercises listed in the [Arrays and Nested Loops Exercises](https://wecancodeit-materials.netlify.app/exercises/intro/arrays-and-loops/) resource
+This is a starter project for the exercises listed in the [Arrays and Nested Loops Exercises](https://wecancodeit-materials.netlify.app/exercises/intro/arrays-and-nested-loops/) resource
 
 - Clone this repository to your local machine
 - Open the solution in Visual Studio
